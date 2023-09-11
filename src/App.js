@@ -51,15 +51,18 @@ function App() {
                 <div class="container px-4 px-lg-5 mt-5">
                     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                         {productsCategories({ src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeao3fW9yOhoP-OJhQApTWopk1qGrezjp8gB8bj6akDAtDs5aQ385dpro7mkIvemRL9U4&usqp=CAU', productType: "Beauty Products", priceRange: '$40.00 - $80.00', cart: cart })}
-                        {products({ sale: "Sale", src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrpApvDMunUFVyavNcewJRhZmP0ZSTVh2ZEw&usqp=CAU', productType: "Facecare kit", reviewPoits: "⭐⭐⭐⭐", originalPrice: '$40.00', sellingPrice: '$80.00', cart: cart, onToggleCart: toggleCart })}
-                        {products({ sale: "Sale", src: 'https://www.businessupturn.com/wp-content/uploads/2022/10/Tesla-Model-Pi-5G-mobile-450x300.jpg', productType: "AAA Mobile", reviewPoits: "⭐⭐⭐⭐⭐", originalPrice: '$50.00', sellingPrice: '$20.00', cart: cart, onToggleCart: toggleCart })}
-                        {products({ src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeeEglD5bOl0xZ8HSHGBwlMKgHRmR_oftuwo-YzmV76uLjJKa6KYVGWoMU3_slUve2onc&usqp=CAU', productType: "Popular Camera", reviewPoits: "⭐⭐⭐⭐⭐", sellingPrice: '$40.00', cart: cart, onToggleCart: toggleCart })}
+                        {products({ sale: "Sale", src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrpApvDMunUFVyavNcewJRhZmP0ZSTVh2ZEw&usqp=CAU', productType: "Facecare kit", reviewPoints: "⭐⭐⭐⭐", originalPrice: '$40.00', sellingPrice: '$80.00', cart: cart, onToggleCart: toggleCart })}
+                        {products({ sale: "Sale", src: 'https://www.businessupturn.com/wp-content/uploads/2022/10/Tesla-Model-Pi-5G-mobile-450x300.jpg', productType: "AAA Mobile", reviewPoints: "⭐⭐⭐⭐⭐", originalPrice: '$50.00', sellingPrice: '$20.00', cart: cart, onToggleCart: toggleCart })}
+                        {products({ src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeeEglD5bOl0xZ8HSHGBwlMKgHRmR_oftuwo-YzmV76uLjJKa6KYVGWoMU3_slUve2onc&usqp=CAU', productType: "Popular Camera", reviewPoints: "⭐⭐⭐⭐⭐", sellingPrice: '$40.00', cart: cart, onToggleCart: toggleCart })}
                         {productsCategories({ src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyzJsEvIGZpQFO2Y3X9ZBCm0rFKrhEGSd8e00LB4wDlg&s', productType: "Fancy Products", priceRange: '$40.00 - $80.00', cart: cart })}
-                        {products({ sale: "Sale", src: 'https://5.imimg.com/data5/SELLER/Default/2023/7/325950837/SU/DH/TG/61377504/hyundai-109cm-full-hd-smart-led-tv-500x500.jpg', productType: "BBB TV", reviewPoits: "⭐⭐⭐", originalPrice: '$20.00', sellingPrice: '$18.00', cart: cart, onToggleCart: toggleCart })}
-                        {products({ src: 'https://cdn.shopify.com/s/files/1/0270/7469/1185/files/233133-450x300-watermelon-pattern-tote_large.jpg?v=1589005034', productType: "Bags", reviewPoits: "⭐⭐⭐⭐⭐", sellingPrice: '$40.00', cart: cart, onToggleCart: toggleCart })}
+                        {products({ sale: "Sale", src: 'https://5.imimg.com/data5/SELLER/Default/2023/7/325950837/SU/DH/TG/61377504/hyundai-109cm-full-hd-smart-led-tv-500x500.jpg', productType: "BBB TV", reviewPoints: "⭐⭐⭐", originalPrice: '$20.00', sellingPrice: '$18.00', cart: cart, onToggleCart: toggleCart })}
+                        {products({ src: 'https://cdn.shopify.com/s/files/1/0270/7469/1185/files/233133-450x300-watermelon-pattern-tote_large.jpg?v=1589005034', productType: "Bags", reviewPoints: "⭐⭐⭐⭐⭐", sellingPrice: '$40.00', cart: cart, onToggleCart: toggleCart })}
                     </div>
                 </div>
             </section>
+            <footer class="py-5 bg-dark">
+                <div class="container"><p class="m-0 text-center text-white">Shopping Cart &copy; Your Website 2023</p></div>
+            </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
             <script src="js/scripts.js"></script>

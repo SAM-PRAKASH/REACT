@@ -9,7 +9,7 @@ export function products(props) {
         <div class="col mb-5">
             <div class="card h-100">
                 {sale && <div class="badge bg-dark text-white position-absolute" style={{ position: 'absolute', top: '0.5rem', right: '0.5rem', }}>{sale}</div>}
-                <img class="card-img-top" src={src} />
+                <img class="card-img-top" src={src} alt="..." />
                 <div class="card-body p-4">
                     <div class="text-center">
                         <h5 class="fw-bolder">{productType}</h5>
